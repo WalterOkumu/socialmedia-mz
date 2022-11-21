@@ -41,7 +41,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         </Script>*/}
         <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJVRQDD"
-height="0" width="0" style="display:none;visibility:hidden">`}}></noscript>
+height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
       </body>
     </Html>
   )
