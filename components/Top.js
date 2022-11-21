@@ -1,15 +1,13 @@
 import Image from "next/image";
 import ContactForm from "./ContactForm";
 import Form from "./Form";
-import media from '/public/social-media.png'
+import media from '/public/black-friday.png'
 
 const Top = () => {
 
-    //const media = "/social-media.png";
-
     return (
         <div className="mx-auto max-w-6xl">
-            <div className="flex md:flex-row flex-col-reverse gap-4 md:gap-18 text-[#f8f8ff] items-center">
+            <div className="flex md:flex-row flex-col-reverse gap-8 md:gap-18 text-[#f8f8ff] justify-center items-center mt-6">
                 <div className="md:w-1/2 w-full self-center items-center pb-10 md:pb-0">
                     {/*<h1 className="text-5xl font-bold md:w-[30rem]">Gestão de Redes Sociais</h1> 
                     <p className="mt-4 mb-4 md:w-96 text-3xl font-light italic">
@@ -24,7 +22,7 @@ const Top = () => {
                     <ContactForm />
                 </div>
                 <div className="md:w-1/2 w-full self-center">    
-                    <Image src={media} alt="Black Friday" className="object-contain" layout="responsive" priority="true" as="image"/>
+                    <Image src={media} alt="Black Friday" className="object-contain" layout="responsive" priority/>
                 </div>    
             </div>
         </div>
