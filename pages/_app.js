@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
           <>
             <Head>
-              <title>Email Marketing - Moçambique</title>
+              <title>Rede Social - Moçambique</title>
             </Head>
             <Component {...pageProps} />
 
