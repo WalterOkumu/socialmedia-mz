@@ -22,7 +22,7 @@ const Top = () => {
                     <ContactForm />
                 </div>
                 <div className="md:w-1/2 w-full self-center">    
-                    <Image src={media} alt="Black Friday" className="object-contain" layout="responsive" priority/>
+                    {/*<Image src={media} alt="Black Friday" className="object-contain" layout="responsive" priority/>*/}
                 </div>    
             </div>
         </div>

@@ -11,7 +11,7 @@ const Testemunhos = () => {
 
                 <div className="flex flex-row gap-4">
                     <div className="">
-                        <Image src={profile} width={150} height={150} alt="Profile" className="rounded border-[#FBED04] border-4"/> 
+                        <Image src={profile} width={150} height={150} alt="Profile" className="rounded border-[#FFF200] border-4"/> 
                     </div>
                     <div className="md:self-start">
                         <p className="font-semibold">Maria Sousa</p>
@@ -23,7 +23,7 @@ const Testemunhos = () => {
 
                 <div className="flex flex-row gap-4">
                     <div className="">
-                        <Image src={profile} width={150} height={150} alt="Profile" className="rounded border-[#FBED04] border-4"/> 
+                        <Image src={profile} width={150} height={150} alt="Profile" className="rounded border-[#FFF200] border-4"/> 
                     </div>
                     <div className="md:self-start">
                         <p className="font-semibold">Maria Sousa</p>
@@ -35,7 +35,7 @@ const Testemunhos = () => {
 
                 <div className="flex flex-row gap-4">
                     <div className="">
-                        <Image src={profile} width={150} height={150} alt="Profile" className="rounded border-[#FBED04] border-4"/> 
+                        <Image src={profile} width={150} height={150} alt="Profile" className="rounded border-[#FFF200] border-4"/> 
                     </div>
                     <div className="md:self-start">
                         <p className="font-semibold">Maria Sousa</p>
